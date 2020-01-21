@@ -1,0 +1,464 @@
+.cardcon {
+    width: 100%;
+    height: 650px;
+    background-color: #ffcc00;
+}
+
+.cardbtn:hover {
+    background-color: #ffcc00;
+}
+
+.cardhead {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    padding: 12px 12px;
+    border: none;
+    text-align: justify;
+}
+
+.cardpara {
+    position: absolute;
+    top: 60%;
+    left: 15.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    padding: 12px 12px;
+    border: none;
+    text-align: justify;
+}
+
+.cardbtn1 {
+    position: absolute;
+    top: 75%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 12px 12px;
+    border: none;
+    text-align: justify;
+}
+
+.cardbtn2 {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 12px 12px;
+    border: none;
+    text-align: justify;
+}
+
+.cardimg {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Page1 css */
+/* .page1head {
+    color: black;
+    font-size: 50px;
+    text-align: justify;
+    letter-spacing: 0em;
+}
+
+.page1para {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0em;
+} */
+
+
+
+/* Page3 css */
+.page3img {
+    height: 700px;
+    top: 10%;
+    left: 40%;
+}
+
+
+
+/* Page5 css */
+/* .page5head {
+    color: black;
+    font-size: 40px;
+    letter-spacing: 0em;
+}
+
+.page5para {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0em;
+} */
+
+
+
+/* card1 css */
+.card1con {
+    width: 100%;
+    height: 600px;
+    background-color: #ffcc00;
+    clip-path: polygon(100% 0, 100% 23%, 50% 100%, 0 100%, 0 0);
+}
+
+.card1head {
+    position: absolute;
+    top: 710%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: black;
+    font-size: 50px;
+    padding: 12px 12px;
+    border: none;
+    text-align: justify;
+}
+
+.card1para {
+    position: absolute;
+    top: 725%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card1btn {
+    position: absolute;
+    top: 738%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 12px 12px;
+    border: none;
+    text-align: justify;
+}
+
+
+
+
+
+
+/* Page6 css */
+/* .page6head {
+    color: black;
+    font-size: 40px;
+    letter-spacing: 0em;
+}
+
+.page6para {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0em;
+} */
+
+.page6con {
+    background-color: #333333;
+}
+
+.page6head1 {
+    color: white;
+    
+}
+
+.page6para1 {
+    color: white;
+   
+}
+
+
+/* Footer */
+.footer1 {
+    background-color: #f2f2f2;
+}
+
+
+
+
+/* -----CSS for Card  Media Query-------------------------------------------------------- */
+
+@media screen and (max-width: 420px) {
+    .cardcon {
+        width: 100%;
+        height: 500px;
+        background-color: #ffcc00;
+    }
+
+    .cardhead {
+        position: absolute;
+        top: 40%;
+        left: 23%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .cardpara {
+        position: absolute;
+        top: 53%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        font-size: 13px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .cardbtn1 {
+        position: absolute;
+        top: 65%;
+        left: 27%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 30px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .cardbtn2 {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 30px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .cardimg {
+        width: 158px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+
+    .page3img {
+        height: 700px;
+        top: 10%;
+        left: 0%;
+    }
+    
+
+   
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    .cardcon {
+        width: 100%;
+        height: 500px;
+        background-color: #ffcc00;
+    }
+
+    .cardhead {
+        position: absolute;
+        top: 40%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .cardpara {
+        position: absolute;
+        top: 53%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        font-size: 12px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .cardbtn1 {
+        position: absolute;
+        top: 65%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 30px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .cardbtn2 {
+        position: absolute;
+        top: 75%;
+        left: 9.3%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 30px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .cardimg {
+        width: 130px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .page3img {
+        height: 700px;
+        top: 10%;
+        left: 0%;
+    }
+
+}
+
+/* -------CSS for Card1 Media Query ------------------------------------- */
+
+@media screen and (max-width: 420px) {
+    .card1con {
+        width: 100%;
+        height: 400px;
+        background-color: #ffcc00;
+        clip-path: polygon(100% 0, 100% 55%, 50% 100%, 0 100%, 0 0);
+    }
+    
+    .card1head {
+        position: absolute;
+        top: 5%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: black;
+        font-size: 20px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .card1para {
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: black;
+        font-size: 15px;
+        text-align: justify;
+    }
+    
+    .card1btn {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 30px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .card1con {
+        width: 100%;
+        height: 400px;
+        background-color: #ffcc00;
+        clip-path: polygon(100% 0, 100% 55%, 50% 100%, 0 100%, 0 0);
+    }
+    
+    .card1head {
+        position: absolute;
+        top: 200%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: black;
+        font-size: 20px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+    .card1para {
+        position: absolute;
+        top: 725%;
+        left: 50.5%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+    }
+    
+    .card1btn {
+        position: absolute;
+        top: 738%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 30px;
+        padding: 12px 12px;
+        border: none;
+        text-align: justify;
+    }
+    
+}
