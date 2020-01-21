@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/paradise_app/static/css/main.d1b05096.chunk.css",
+    "main.js": "/paradise_app/static/js/main.edd0be07.chunk.js",
+    "main.js.map": "/paradise_app/static/js/main.edd0be07.chunk.js.map",
+    "runtime-main.js": "/paradise_app/static/js/runtime-main.37084dc3.js",
+    "runtime-main.js.map": "/paradise_app/static/js/runtime-main.37084dc3.js.map",
+    "static/js/2.11a68398.chunk.js": "/paradise_app/static/js/2.11a68398.chunk.js",
+    "static/js/2.11a68398.chunk.js.map": "/paradise_app/static/js/2.11a68398.chunk.js.map",
+    "index.html": "/paradise_app/index.html",
+    "precache-manifest.0cfd987fd586c7f3ff299e92f06664cc.js": "/paradise_app/precache-manifest.0cfd987fd586c7f3ff299e92f06664cc.js",
+    "service-worker.js": "/paradise_app/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/paradise_app/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.11a68398.chunk.js.LICENSE": "/paradise_app/static/js/2.11a68398.chunk.js.LICENSE",
+    "static/media/logo.svg": "/paradise_app/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37084dc3.js",
+    "static/js/2.11a68398.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.edd0be07.chunk.js"
+  ]
+}
