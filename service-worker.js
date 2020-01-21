@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/paradise_app/precache-manifest.0cfd987fd586c7f3ff299e92f06664cc.js"
+  "/paradise_app/precache-manifest.c5abb8bc60486739074453105405fe6b.js"
 );
 
 self.addEventListener('message', (event) => {
